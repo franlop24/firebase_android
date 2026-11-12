@@ -38,7 +38,6 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -54,8 +53,9 @@ import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.franlop.android_firebase.R
 import com.franlop.android_firebase.ui.navigation.Routes
-import com.franlop.android_firebase.ui.screens.login.ContactsScreen
-import com.franlop.android_firebase.ui.screens.login.NotesScreen
+import com.franlop.android_firebase.ui.screens.db.ContactsScreen
+
+import com.franlop.android_firebase.ui.screens.db.NotesScreen
 import com.franlop.android_firebase.utils.AnalyticsManager
 import com.franlop.android_firebase.utils.AuthManager
 
